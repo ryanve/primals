@@ -1,0 +1,50 @@
+{
+  "name": "primals",
+  "version": "0.1.0",
+  "description": "Parse stringified primitives",
+  "main": "primals.js",
+  "scripts": {
+    "lint": "jshint primals.js && jshint test.js",
+    "test": "npm run lint && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/primals.git"
+  },
+  "keywords": [
+    "conversion",
+    "primitives",
+    "primitive",
+    "convert",
+    "strings",
+    "string",
+    "values",
+    "value",
+    "parse",
+    "data",
+    "type",
+    "util"
+  ],
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanve/primals/issues"
+  },
+  "homepage": "https://github.com/ryanve/primals#readme",
+  "devDependencies": {
+    "jshint": "^2.9.3"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "boss": true,
+    "browser": true,
+    "eqnull": true,
+    "expr": true,
+    "supernew": true,
+    "latedef": "nofunc",
+    "maxerr": 5,
+    "node": true,
+    "undef": true,
+    "unused": true
+  }
+}
