@@ -1,7 +1,7 @@
 !function(api) {
 
   function ok(actual, correct) {
-    if (correct === correct ? actual !== correct : actual === correct) {
+    if (correct === correct ? actual !== correct : actual === actual) {
       var msg = [typeof actual, actual, 'should be', typeof correct, correct]
       throw new Error(msg.join(' '))
     }
